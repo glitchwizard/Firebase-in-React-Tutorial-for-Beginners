@@ -11,7 +11,7 @@ const config = {
 }
 
 class Firebase {
-    constructor(props: any) {
+    constructor() {
         app.initializeApp(config);
     }
 }
