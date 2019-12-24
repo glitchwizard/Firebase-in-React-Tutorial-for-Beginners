@@ -44,12 +44,10 @@ class App extends React.Component<Props, State> {
         this.listener();
     }
     
-
     render() {
         return(
         <Router>
             <div>
-
                 <Navigation authUser={this.state.authUser}/>
                 <hr />
 
