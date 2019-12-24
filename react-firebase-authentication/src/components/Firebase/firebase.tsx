@@ -1,7 +1,5 @@
 import app from 'firebase/app';
 import 'firebase/auth';
-import { PassThrough } from 'stream';
-import PasswordChange from '../PasswordChange';
 
 const config = {
     apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
