@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project Info
+
+This project is following along with the steps of this tutorial: https://www.robinwieruch.de/complete-firebase-authentication-react-tutorial
+
+Each major section is another branch of this Repo. 
+
+The master branch is the final steps as well as the final numbered branch.
+
 ## Available Scripts
 
 In the project directory, you can run:
