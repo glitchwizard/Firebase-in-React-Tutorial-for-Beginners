@@ -5,6 +5,7 @@ import { compose } from 'recompose';
 import { SignUpLink } from '../SignUp';
 import Firebase, { withFirebase } from '../Firebase';
 import * as ROUTES from '../../constants/routes';
+import { PasswordForgetLink } from '../PasswordForget';
 
 
 const SignInPage = () => {
@@ -12,6 +13,7 @@ const SignInPage = () => {
         <div>
             <h1>SignIn</h1>
             <SignInForm />
+            < PasswordForgetLink />
             <SignUpLink />
         </div>
     )
